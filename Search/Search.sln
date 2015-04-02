@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search", "Search\Search.csproj", "{60A635CD-819C-4840-98A9-59C94021F46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutocompletionEngine", "..\..\..\..\Desktop\AutocompleteTextBox1\AutocompleteTextBox1\AutocompletionEngine\AutocompletionEngine.csproj", "{21A8B9DE-83BC-403F-A866-33B1E73145EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchTest", "SearchTest\SearchTest.csproj", "{E47EF5F7-3D45-49F9-9CC1-EC534CF36FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "SearchService\SearchService.csproj", "{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchServer", "SearchServer\SearchServer.csproj", "{9410B47E-EF0E-495E-B17E-8701EF40A1FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595} = {E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchClient", "SearchClient\SearchClient.csproj", "{DFA0B87A-8954-49EC-B23B-6AEA89A60CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A635CD-819C-4840-98A9-59C94021F46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A635CD-819C-4840-98A9-59C94021F46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A635CD-819C-4840-98A9-59C94021F46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A635CD-819C-4840-98A9-59C94021F46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A8B9DE-83BC-403F-A866-33B1E73145EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A8B9DE-83BC-403F-A866-33B1E73145EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A8B9DE-83BC-403F-A866-33B1E73145EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A8B9DE-83BC-403F-A866-33B1E73145EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47EF5F7-3D45-49F9-9CC1-EC534CF36FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47EF5F7-3D45-49F9-9CC1-EC534CF36FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47EF5F7-3D45-49F9-9CC1-EC534CF36FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47EF5F7-3D45-49F9-9CC1-EC534CF36FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D0C2E6-F64B-4D64-AB64-E57DC9B92595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9410B47E-EF0E-495E-B17E-8701EF40A1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9410B47E-EF0E-495E-B17E-8701EF40A1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9410B47E-EF0E-495E-B17E-8701EF40A1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9410B47E-EF0E-495E-B17E-8701EF40A1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA0B87A-8954-49EC-B23B-6AEA89A60CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA0B87A-8954-49EC-B23B-6AEA89A60CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA0B87A-8954-49EC-B23B-6AEA89A60CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA0B87A-8954-49EC-B23B-6AEA89A60CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
